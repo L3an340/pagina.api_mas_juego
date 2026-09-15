@@ -43,7 +43,7 @@ async function buscarPokemon() {
         imagen.style.display = "block";
 
         document.getElementById("mensaje").textContent =
-            "Aparecio un pokemon. Intenta atraparlo";
+            "aparecio un pokemon";
 
     } catch (error) {
 
@@ -69,7 +69,7 @@ function atrapar() {
     } else {
 
         document.getElementById("mensaje").textContent =
-            pokemonActual.name + " se escapo!";
+            pokemonActual.name + " se escapo...pipipi";
 
         const imagen = document.getElementById("pokemon");
 
@@ -95,7 +95,7 @@ function escapar() {
     }
 
     document.getElementById("mensaje").textContent =
-        "Escapaste del encuentro";
+        "escapaste";
 
     const imagen = document.getElementById("pokemon");
 
@@ -130,5 +130,5 @@ function mostrarColeccion() {
     });
 
     document.getElementById("contador").textContent =
-        "Pokemon atrapados: " + pokemonAtrapados.length;
+        "pokemon atrapados: " + pokemonAtrapados.length;
 }

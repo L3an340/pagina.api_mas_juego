@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>info y juego de pokemonn</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>pokemon de la primera gen</h1>
+
+    <section>
+        <h2>informacion de los pokemon</h2>
+
+        <input id="buscador">
+
+        <button onclick="buscarPokemon()">buscar pokemon</button>
+
+        <div id="informacion"></div>
+    </section>
+
+    <div class="juego">    
+        <h1>aparecio un poke</h1>
+        <h2 id="nombre"></h2>
+        <img id="pokemon" src="" alt="pokemon">
+    <div>
+        
+        <button onclick="atrapar()">atrapar</button>
+        <button onclick="escapar()">escapar</button>
+
+    </div>
+
+    <p id="mensaje"></p>
+
+    <h2>pokes atrapados</h2>
+    
+    <p id="contador">pokemon atrapados: 0</p>
+    
+    <div id="coleccion"></div>
+
+</div>
+    <script src="main.js"></script>
+</body>
+</html>

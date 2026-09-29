@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carrusel</title>
+    <link rel="stylesheet" href="carrusel.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Pokemon</div>
+
+        <div class="nav-links">
+            <a href="index.html">inicio</a>
+            <a href="carrusel.html">carrusel</a>
+            <a href="ep.html">1er ep</a>
+        </div>
+    </nav>
+
+    <h1>Carrusel pokemon</h1>
+
+    <div class="carrusel">
+
+        <button onclick="anterior()">←</button>
+
+        <div>
+            <img id="imagenPokemon" src="" alt="Pokémon">
+            <h2 id="nombrePokemon">cargando</h2>
+        </div>
+
+        <button onclick="siguiente()">→</button>
+
+    </div>
+
+    <script src="carrusel.js"></script>
+
+</body>
+
+</html>

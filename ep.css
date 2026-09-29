@@ -109,3 +109,21 @@ body {
     height: 45px;
     object-fit: contain;
 }
+
+.titulo-video img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.titulo-video img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.titulo-video h1 {
+    margin: 0;
+}
